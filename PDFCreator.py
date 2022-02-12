@@ -32,6 +32,7 @@ resumeFile = resumeData.read()
 obj = json.loads(resumeFile)
 
 list = obj['Personal Information']
+print(list)
 print(len(list))
 
 for i in range(len(list)):
