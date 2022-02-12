@@ -24,21 +24,12 @@ pdf = PDF('P', 'mm', 'Letter')
 pdf.add_page()
 
 
-pdf.set_font('Arial', '', 16)
+pdf.set_font('Arial', '', 12)
 
 resumeData = open('resume.json','r')
-resumeFile = resumeData.read()
 
-obj = json.loads(resumeFile)
-
-list = obj['Personal Information']
-print(list)
-print(len(list))
-
-for i in range(len(list)):
-    NameObj = 'Name:', list[i].get('Name')
-    pdf.set_font('Arial', '', 12)
-    pdf.cell(0, 10, NameObj)
+for line in resumeData:
+    pdf.cell(20, 5, txt=line, ln=1, align='L')
 
 
 
