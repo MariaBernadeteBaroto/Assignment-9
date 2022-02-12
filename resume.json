@@ -1,0 +1,33 @@
+
+
+{
+    "Personal Information": [
+        { "Name": "Ma. Bernadete P. Baroto" },
+        { "DateOfBirth": "Aoril 17, 2003" },
+        { "Age": 18 },
+        { "Address": "87 Carnation St. Tondo, Manila" },
+        { "Religion": "Roman Catholic" },
+        { "Weight": "55 kgs" },
+        { "Height": "163 cm" },
+        { "Sex": "Female" },
+        { "CivilStatus": "Single" }
+    ],
+
+    "Contact Information": [
+        { "email": "mabernadete@gmail.com" },
+        { "mobileNumber": "09678287654" }
+    ],
+
+    "Education": [
+        { "SeniorHighSchool": "Sisters of Mary of Banneux, Inc." },
+        { "JuniorHIghSchool": "Sisters of Mary of Banneux, Inc." },
+        { "Elementary": "Amado V. Hernandez Elementary School" }  
+    ],
+
+    "Certificates": [
+        { "NationalCertificates": "Technical Drafting NC II" },
+        { "NationalCertificates": "Computer Systems Servicing NC II" }
+    ],
+
+    "Work Experience": null
+}
